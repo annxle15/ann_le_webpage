@@ -1,0 +1,59 @@
+{
+  "job": "Software Development Engineer",
+  "name": "Ann Le",
+  "desc": "Creating all my ideas",
+  "aboutDesc": "Education & Professional Experience",
+  "email": "annxle15@gmail.com",
+  "status": "on",
+  "hireMeLink": "",
+  "projects": [
+    {
+      "project-image-url": "",
+      "project-name": "Landing Page Design",
+      "project-desc": "Click to view live demo",
+      "project-tags": "#Angular #Typescript #Tailwind #HTML"
+    },
+    {
+      "project-image-url": "",
+      "project-name": "API & Backend",
+      "project-desc": "Click to view summary",
+      "project-tags": "#CSharp #Azure #Postman #SQL #..."
+    },
+    {
+      "project-image-url": "",
+      "project-name": "Annplified",
+      "project-desc": "Click to view summary",
+      "project-tags": "#iOS #Swift #Lua #Adobe #Python"
+    }
+  ],
+  "experiences": [
+    {
+      "project-image-url": "",
+      "project-name": "Milliman",
+      "project-desc": "C#, Azure, .NET"
+    },
+    {
+      "project-image-url": "",
+      "project-name": "NE Environmental Trust",
+      "project-desc": ".NET, Python"
+    }
+  ],
+  "social": [
+    {
+      "icon": "FaXTwitter",
+      "link": "https://x.com"
+    },
+    {
+      "icon": "FaInstagram",
+      "link": "https://instagram.com"
+    },
+    {
+      "icon": "FaGithub",
+      "link": "https://github.com"
+    },
+    {
+      "icon": "FaLinkedinIn",
+      "link": "https://linkedin.com"
+    }
+  ]
+}
