@@ -18,7 +18,7 @@ const experience =  [
       "exp-name": "NE Environmental Trust",
       "exp-desc": "Software Developer",
       "new-tab": false,
-      "exp-link": "/work",
+      "exp-link": "/net",
     },
     {
       "exp-image-url": unlLogo,

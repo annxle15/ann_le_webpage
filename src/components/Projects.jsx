@@ -1,11 +1,31 @@
 import { Link } from "react-router-dom";
 import { useState } from "react";
 import { getConfigData } from "../data/configReader";
+import annplifiedIcon from "../assets/temp_icon.png";
 
 export default function Card() {
   const configData = getConfigData();
-  const projects = configData.projects;
-
+  //const projects = configData.projects;
+  const projects =  [
+    {
+      "project-image-url": "",
+      "project-name": "UI/UX Brand Design",
+      "project-desc": "Click to view live demo",
+      "project-tags": "#Angular #Typescript #Tailwind #HTML"
+    },
+    {
+      "project-image-url": "",
+      "project-name": "API & Systems Engineering",
+      "project-desc": "Click to view summary",
+      "project-tags": "#CSharp #Azure #Postman #SQL #..."
+    },
+    {
+      "project-image-url": annplifiedIcon,
+      "project-name": "Annplified",
+      "project-desc": "Click to view summary",
+      "project-tags": "#iOS #Swift #Lua #Adobe #Python"
+    }
+  ];
   const [isHovered, setIsHovered] = useState(false);
 
   const handleMouseEnter = () => setIsHovered(true);
@@ -29,10 +49,10 @@ export default function Card() {
           {projects.map((project, index) => {
             // choose where each card links
             let linkTo = "/projects";
-            if (project["project-name"] === "Landing Page Design") {
+            if (project["project-name"] === "UI/UX Brand Design") {
               linkTo = "/landingproject"; 
             }
-            if (project["project-name"] === "API & Backend") {
+            if (project["project-name"] === "API & Systems Engineering") {
               linkTo = "/work"; 
             }
 

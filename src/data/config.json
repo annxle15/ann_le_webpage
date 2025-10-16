@@ -9,13 +9,13 @@
   "projects": [
     {
       "project-image-url": "",
-      "project-name": "Landing Page Design",
+      "project-name": "UI/UX Brand Design",
       "project-desc": "Click to view live demo",
       "project-tags": "#Angular #Typescript #Tailwind #HTML"
     },
     {
       "project-image-url": "",
-      "project-name": "API & Backend",
+      "project-name": "API & Systems Engineering",
       "project-desc": "Click to view summary",
       "project-tags": "#CSharp #Azure #Postman #SQL #..."
     },
