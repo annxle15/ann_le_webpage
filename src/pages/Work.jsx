@@ -12,22 +12,28 @@ export default function Work() {
       >
         ← Back To Home
       </button>
-      <h1 className="text-3xl font-semibold tracking-tight mb-4">Work</h1>
 
-      <h1 className="text-2xl font-semibold tracking-tight mb-4">Milliman</h1>
-<ul className="text-gray-700 text-sm md:text-base list-disc list-inside text-left mb-8 max-w-lg">
-  <li>Built API integrations that connected payroll and application systems</li>
-  <li>Implemented SAML SSO for seamless and secure sign-ins</li>
-  <li>Shipped production code used by employers, brokers, and clients nationwide</li>
-  <li>Designed SQL schemas, wrote stored procedures, and debugged data pipelines to ensure accuracy and reliability</li>
-  <li>Managed CI/CD with Azure DevOps pipelines for builds, releases, and environment configs</li>
-  <li>Webhook Automation</li>
+      {/* <h1 className="text-2xl font-semibold tracking-tight mb-4">Milliman</h1> */}
+
+<p className="text-gray-500 text-xs md:text-sm mb-4">#CSharp #DotNet #SQL #Azure #Postman #SendGrid #SAML #DevOps</p>
+
+<p className="text-gray-600 max-w-xl leading-relaxed mb-6">
+  I work on backend systems and API integrations that power health insurance marketplace platforms used by employers, brokers, and clients across the U.S.
+</p>
+
+<ul className="text-gray-700 text-xs md:text-sm list-disc list-inside text-left mb-8 max-w-lg leading-relaxed space-y-1.5">
+  <li><strong>API Design & Integration:</strong> Engineered RESTful APIs that connect payroll, enrollment, and quoting systems</li>
+  <li><strong>Cloud Infrastructure:</strong> Azure DevOps for CI/CD automation.</li>
+  <li><strong>Security & Authentication:</strong> Implemented SAML 2.0 SSO for secure, cross-organization logins.</li>
+  <li><strong>Production Impact:</strong> Shipped backend features supporting thousands of users nationwide.</li>
 </ul>
+
+
 
 
       {/* Footer or CTA */}
       <p className="text-gray-500 mt-8 text-sm">
-        a fun and rewarding project! 💡
+
       </p>
     </div>
   );

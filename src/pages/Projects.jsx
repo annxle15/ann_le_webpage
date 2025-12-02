@@ -6,28 +6,36 @@ import workLogo from "../assets/work_icon.jpeg";
 import unlLogo from "../assets/unl_logo.png";
 import fullLogo from "../assets/full-logo.png";
 import earthIcon from "../assets/earth.png";
+import vibIcon from "../assets/vib-icon.png";
 
 
 const experience =  [
+  {
+    "exp-image-url": earthIcon,
+    "exp-name": "TypeCode.Co",
+    "exp-desc": "Practice inteview coding problems platform",
+    "exp-link": "https://www.typecode.co/",
+    "new-tab": true
+  },
     {
       "exp-image-url": earthIcon,
-      "exp-name": "Map Pins",
-      "exp-desc": "An online travel diary: Next.js, TypeScript, React, and Tailwind CSS.",
+      "exp-name": "Personal Online Travel Diary",
+      "exp-desc": "Next.js, TypeScript, React, Tailwind CSS",
       "new-tab": false,
-      "exp-link": "/work",
+      "exp-link": "",
     },
     {
-      "exp-image-url": workLogo,
-      "exp-name": "WatchOS Timer",
-      "exp-desc": "Software Developer",
+      "exp-image-url": vibIcon,
+      "exp-name": "Apple Watch Timer",
+      "exp-desc": "Swift, xCode, HealthKit",
       "new-tab": false,
-      "exp-link": "/work",
+      "exp-link": "",
     },
     {
-      "exp-image-url": workLogo,
-      "exp-name": "UNL Math Department",
-      "exp-desc": "Undegraduate Research Assistant",
-      "exp-link": "https://math.unl.edu/outreach-and-impact/recognition/",
+      "exp-image-url": earthIcon,
+      "exp-name": "www.ann-le.com",
+      "exp-desc": "Personal Portfolio Website: React, Tailwind ",
+      "exp-link": "https://www.ann-le.com/",
       "new-tab": true
     }
   ];
@@ -47,8 +55,8 @@ export default function Card() {
 
   return (
     <div className="px-2">
+      
     <div className="px-7 py-10 flex flex-col items-center text-center">
-      {/* Logo */}
       <img
         src={fullLogo}
         alt="Annplified logo"

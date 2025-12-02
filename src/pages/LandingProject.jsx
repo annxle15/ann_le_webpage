@@ -62,7 +62,7 @@ Demo
 
       {/* Footer or CTA */}
       <p className="text-gray-500 mt-8 text-sm">
-        a fun and rewarding project! 💡
+
       </p>
     </div>
   );

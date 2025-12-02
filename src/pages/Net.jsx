@@ -15,14 +15,13 @@ export default function Net() {
         ← Back To Home
       </button>
       <h1 className="text-3xl font-semibold tracking-tight mb-4">NE Environment Trust</h1>
-
+      <p className="text-gray-600 max-w-xl leading-relaxed mb-8">
+      Collaborated on a six-person team to plan, build, and ship a full-stack web application. We followed Agile practices and met regularly with stakeholders to gather requirements and share progress.
+      </p>
 <ul className="text-gray-700 text-sm md:text-base list-disc list-inside text-left mb-8 max-w-lg">
   <li>Developed internal tools for grant tracking and reporting</li>
-  <li>Implemented SAML SSO for seamless and secure sign-ins</li>
-  <li>Shipped production code used by employers, brokers, and clients nationwide</li>
-  <li>Designed SQL schemas, wrote stored procedures, and debugged data pipelines to ensure accuracy and reliability</li>
-  <li>Managed CI/CD with Azure DevOps pipelines for builds, releases, and environment configs</li>
-  <li>Webhook Automation</li>
+  <li>.NET Core • JavaScript • MVC • SQL • Azure • Razor Pages</li>
+
 </ul>
 
 <div className="w-full max-w-4xl px-4 md:px-0"> {/* Wrapper for size control */}

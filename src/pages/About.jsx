@@ -71,10 +71,6 @@ export default function About() {
         <h2 className="text-2xl font-semibold">University of Nebraska</h2>
         <p className="text-gray-500 text-sm">Dual Bachelor’s, 2019 – 2023</p>
         <ul className="list-disc list-inside text-gray-600 text-sm mt-2">
-          <li>BS in Computer Science</li>
-          <li>BS in Mathematics</li>
-          <li>BS in Computer Science</li>
-          <li>BS in Mathematics</li>
 
         </ul>
       </div>
@@ -110,7 +106,7 @@ export default function About() {
               type="button"
               className="flex items-center gap-x-1 border border-black bg-black text-white font-medium rounded-lg text-sm px-3 py-2 shadow-md hover:bg-gray-800 transition"
             >
-              Hire Me
+              Meet Me
             </button>
           </a>
           <CopyEmailButton />
