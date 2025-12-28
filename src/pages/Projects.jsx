@@ -4,35 +4,35 @@ import { getConfigData } from "../data/configReader";
 import netLogo from "../assets/net_logo.jpg";
 import workLogo from "../assets/work_icon.jpeg";
 import unlLogo from "../assets/unl_logo.png";
-import fullLogo from "../assets/full-logo.png";
 import earthIcon from "../assets/earth.png";
 import vibIcon from "../assets/vib-icon.png";
+import profile from "../assets/gradann.jpeg";
 
 
 const experience =  [
-  {
-    "exp-image-url": earthIcon,
-    "exp-name": "TypeCode.Co",
-    "exp-desc": "Practice inteview coding problems platform",
-    "exp-link": "https://www.typecode.co/",
-    "new-tab": true
-  },
     {
       "exp-image-url": earthIcon,
       "exp-name": "Personal Online Travel Diary",
-      "exp-desc": "Next.js, TypeScript, React, Tailwind CSS",
+      "exp-desc": "Next.js, React, TypeScript, Tailwind CSS",
       "new-tab": false,
       "exp-link": "",
     },
     {
       "exp-image-url": vibIcon,
       "exp-name": "Apple Watch Timer",
-      "exp-desc": "Swift, xCode, HealthKit",
+      "exp-desc": "Swift, WatchOS, Xcode",
       "new-tab": false,
       "exp-link": "",
     },
     {
       "exp-image-url": earthIcon,
+      "exp-name": "TypeCode.Co",
+      "exp-desc": "Practice inteview coding problems platform",
+      "exp-link": "https://www.typecode.co/",
+      "new-tab": true
+    },
+    {
+      "exp-image-url": profile,
       "exp-name": "www.ann-le.com",
       "exp-desc": "Personal Portfolio Website: React, Tailwind ",
       "exp-link": "https://www.ann-le.com/",
@@ -57,11 +57,6 @@ export default function Card() {
     <div className="px-2">
       
     <div className="px-7 py-10 flex flex-col items-center text-center">
-      <img
-        src={fullLogo}
-        alt="Annplified logo"
-        className="w-40 md:w-56 mb-4 object-contain"
-      />
 
     </div>
         <div className="flex flex-col bg-gray-100 rounded-lg px-5 py-5 ">
@@ -70,7 +65,7 @@ export default function Card() {
             
             <div className="font-medium text-lg flex items-center gap-x-2">
               <div className="w-1.5 h-1.5 bg-gray-400 rounded-full"></div>
-              Products
+              Projects
             </div>
             <button
               type="button"
